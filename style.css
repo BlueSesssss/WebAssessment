@@ -1,34 +1,73 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #2C2C2C;
+    background-color: #333;
     color: #fff;
+    font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
-    padding: 50px;
+    padding: 0;
 }
-header{background-color: rgba(51, 51, 51, 0.7); 
-    padding: 0px;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+
+h1 {
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
 }
+
 button {
-    background-color: #4CAF50; 
-    color: white;              
-    padding: 15px 32px;        
-    text-align: center;       
-    font-size: 16px;           
-    margin: 4px 2px;          
-    cursor: pointer;          
-    border: none;             
-    border-radius: 8px;       
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
 }
+
 button:hover {
-    background-color: #45a049; 
+    background-color: #45a049;
 }
-button:disabled {
-    cursor: not-allowed;
-    opacity: 0.6;
+
+form {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #fff;
+    text-align: left;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+
+#formSubmitBtn {
+    background-color: #28a745;
+    margin-top: 10px; 
+}
+
+#message {
+    font-size: 16px;
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    pointer-events: auto;
+    cursor: pointer;
 }
